@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/MakePyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/MakePyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +56,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FortuneEmployee">
+  <component name="RunManager" selected="TestNG.UnitTestingMath.Fibonacci">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
+    <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.MakePyramid" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="databases.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,13 +74,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
+    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,13 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.PrimeNumber" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,6 +115,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitTestingMath.Fibonacci" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.problems" />
+      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
+      <option name="METHOD_NAME" value="Fibonacci" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestingMath.testFactorialRecursive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math.problems" />
+      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
+      <option name="METHOD_NAME" value="testFactorialRecursive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -120,15 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CsvReader" />
-      <item itemvalue="Application.ConnectToMongoDB" />
-      <item itemvalue="Application.FortuneEmployee" />
+      <item itemvalue="Application.MakePyramid" />
+      <item itemvalue="Application.Pattern" />
+      <item itemvalue="Application.PrimeNumber" />
+      <item itemvalue="TestNG.UnitTestingMath.testFactorialRecursive" />
+      <item itemvalue="TestNG.UnitTestingMath.Fibonacci" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FortuneEmployee" />
-        <item itemvalue="Application.ConnectToMongoDB" />
-        <item itemvalue="Application.CsvReader" />
+        <item itemvalue="TestNG.UnitTestingMath.Fibonacci" />
+        <item itemvalue="TestNG.UnitTestingMath.testFactorialRecursive" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.Pattern" />
+        <item itemvalue="Application.MakePyramid" />
       </list>
     </recent_temporary>
   </component>
@@ -164,21 +211,29 @@
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1578859691231" />
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1578849938955" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1578861877091" />
-    <state width="1440" height="213" key="GridCell.Tab.0.bottom" timestamp="1578862062617">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1440" height="213" key="GridCell.Tab.0.bottom" timestamp="1578870224035">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1440" height="213" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1578870224035" />
+    <state width="1440" height="213" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578863675930" />
     <state width="1440" height="213" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1578862062617" />
-    <state width="1440" height="213" key="GridCell.Tab.0.center" timestamp="1578862062615">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1440" height="213" key="GridCell.Tab.0.center" timestamp="1578870224034">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1440" height="213" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1578870224034" />
+    <state width="1440" height="213" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578863675927" />
     <state width="1440" height="213" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1578862062615" />
-    <state width="1440" height="213" key="GridCell.Tab.0.left" timestamp="1578862062615">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1440" height="213" key="GridCell.Tab.0.left" timestamp="1578870224033">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1440" height="213" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1578870224033" />
+    <state width="1440" height="213" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578863675925" />
     <state width="1440" height="213" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1578862062615" />
-    <state width="1440" height="213" key="GridCell.Tab.0.right" timestamp="1578862062616">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1440" height="213" key="GridCell.Tab.0.right" timestamp="1578870224035">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state width="1440" height="213" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1578870224034" />
+    <state width="1440" height="213" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578863675929" />
     <state width="1440" height="213" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1578862062616" />
   </component>
   <component name="XDebuggerManager">
