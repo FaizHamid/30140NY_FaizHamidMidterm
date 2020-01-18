@@ -16,7 +16,6 @@ public class FortuneEmployee {
 	public static void main(String[] args) {
 
 		EmployeeInfo employeeInfo = new EmployeeInfo();
-
 		employeeInfo.setEmployeeName("John Doe");
 		employeeInfo.setEmployeeId(12345);
 		employeeInfo.assignDepartment("Human Resources");

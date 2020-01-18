@@ -70,7 +70,6 @@ public class ConnectToSqlDB {
                 connect.close();
             }
         }catch(Exception e){
-
         }
     }
 
@@ -161,7 +160,6 @@ public class ConnectToSqlDB {
         }
     }
 
-
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2)
     {
         try {
@@ -170,7 +168,6 @@ public class ConnectToSqlDB {
                 ps.setString(1,"Ankita Sing");
                 ps.setInt(2,3590);
                 ps.executeUpdate();
-
 
         } catch (IOException e) {
             e.printStackTrace();

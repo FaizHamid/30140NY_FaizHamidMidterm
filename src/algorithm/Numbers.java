@@ -1,7 +1,6 @@
 package algorithm;
 
 import databases.ConnectToSqlDB;
-
 import java.util.List;
 import java.util.Random;
 
@@ -10,14 +9,10 @@ import java.util.Random;
  */
 public class Numbers {
 
-	/*
-	 * Show all the different kind of sorting algorithm by applying into (num array).
+	/*Show all the different kind of sorting algorithm by applying into (num array).
 	 * Display the execution time for each sorting.Example in below.
-	 *
-	 * Use any databases[MongoDB, Oracle or MySql] to store data and retrieve data.
-	 *
-	 * At the end. After running all the sorting algo, come to a conclusion which one is suitable on given data set.
-	 *
+	 *Use any databases[MongoDB, Oracle or MySql] to store data and retrieve data.
+	 *At the end. After running all the sorting algo, come to a conclusion which one is suitable on given data set.
 	 */
 
 	public static void main(String[] args) throws Exception {
@@ -25,6 +20,7 @@ public class Numbers {
 		int [] num = new int[1000000];
 		storeRandomNumbers(num);
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+
 		//Selection Sort
 		Sort algo = new Sort();
 		algo.selectionSort(num);
@@ -35,53 +31,47 @@ public class Numbers {
 		printValue(numbers);
 		int n = num.length;
 		randomize (num, n);
+
 		//Insertion Sort
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
-
 		randomize (num, n);
 
 		//Bubble Sort
 		algo.bubbleSort(num);
 		long bubbleSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + bubbleSortExecutionTime + " milli sec");
-
 		randomize (num, n);
 
 		//Merge Sort
 		algo.mergeSort(num, num.length);
 		long mergeSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + mergeSortExecutionTime + " milli sec");
-
 		randomize (num, n);
 
 		//Quick Sort
 		algo.quickSort(num, 0, num.length - 1);
 		long quickSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + quickSortExecutionTime + " milli sec");
-
 		randomize (num, n);
 
 		//Heap Sort
 		algo.heapSort(num);
 		long heapSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + heapSortExecutionTime + " milli sec");
-
 		randomize (num, n);
 
 		//Bucket Sort
 		algo.bucketSort(num, 10);
 		long bucketSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + bubbleSortExecutionTime + " milli sec");
-
 		randomize (num, n);
 
 		//Shell Sort
 		algo.shellSort(num);
 		long shellSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + shellSortExecutionTime + " milli sec");
-
 	}
 
 	public static void storeRandomNumbers(int [] num){

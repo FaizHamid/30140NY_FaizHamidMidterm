@@ -18,9 +18,7 @@ public class JsonReaderUtil {
 
     /*
       ToDo:API is given, This Rest API will give you a Json Array. It is parsed partially. Your task is to give the following output.
-
       output:
-
      "mrahman@gmail.com" "Matiur Rahman" "400k" "Finance"
      "mrahman@gmail.com" "Rohan Rahman" "100k" "Engineering"
      "kafil@gmail.com" "Kafil" "200k" "Backend End Team"
@@ -32,39 +30,34 @@ public class JsonReaderUtil {
      "mrahman2@gmail.com" "Mizanur Rahman" "405k" "Finance"
      "mdtaque@gmail.com" "rifat taque" "400k" "QA"
      "mdtaque@gmail.com" "rifat taque" "400k" "QA"
-
      */
 
-    public static void main(String[] args)throws MalformedURLException, IOException {
+    public static void main(String[] args) throws MalformedURLException, IOException {
         String sURL = "http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources";
         Employee emp = null;
         List<Employee> empList = new ArrayList<>();
         URL url = new URL(sURL);
         URLConnection request = url.openConnection();
         request.connect();
-        JsonArray  jsonArray = null;
+        JsonArray jsonArray = null;
         JsonParser jp = new JsonParser();
         JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent()));
         if (root instanceof JsonObject) {
             JsonObject rootObj = root.getAsJsonObject();
         } else if (root instanceof JsonArray) {
-            jsonArray =  root.getAsJsonArray();
+            jsonArray = root.getAsJsonArray();
         }
-        for (int i = 0; i < jsonArray.size()-1; i++) {
+        for (int i = 0; i < jsonArray.size() - 1; i++) {
             try {
                 JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
                 //you code start here
-                String empEmail = jsonobject.get("empEmail").toString();
-                System.out.println(empEmail);
-
-            }catch(Exception ex){
-
+                String empEmail = jsonobject.get("empName").toString();
+            } catch (Exception ex) {
             }
         }
         //Print to the console.
-        for(Employee entry:empList){
-            System.out.println(entry.getEmpEmail()+" "+entry.getEmpName()+" "+entry.getSalary()+" "+entry.getDepartment());
+        for (Employee entry : empList) {
+            System.out.println(entry.getEmpEmail() + " " + entry.getEmpName() + " " + entry.getSalary() + " " + entry.getDepartment());
         }
     }
-
 }

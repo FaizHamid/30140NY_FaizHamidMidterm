@@ -1,10 +1,9 @@
 package datastructure;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 
 public class DataReader {
@@ -12,7 +11,7 @@ public class DataReader {
 	public static void main(String[] args) {
 		/*
 		 * User API to read the below textFile and print to console.
-		 * Use BufferedReader class. 
+		 * Use BufferedReader class.
 		 * Use try....catch block to handle Exception.
 		 *
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
@@ -25,7 +24,8 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-		String textFile = ("/Users/faizhamid/Documents/Midterm/MidtermJuly2019/src/data/self-driving-car.txt");
+
+		String textFile = "/Users/faizhamid/documents/Midterm/MidtermJuly2019/src/data/self-driving-car";
 		Stack<String> stack = new Stack();
 		LinkedList<String> linkedList = new LinkedList<>();
 
@@ -41,6 +41,7 @@ public class DataReader {
 
 		} catch (IOException e) {
 			System.err.format("IOException: %s%n", e);
+			System.out.println("Attached file was not readable.");
 		}
 
 		System.out.println("First word pushed: " + stack.firstElement());

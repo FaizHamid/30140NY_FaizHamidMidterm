@@ -247,7 +247,7 @@ Synchronization in Java guarantees that no two threads can execute a synchronize
 
 What is Framework?
 
-Frameworks are large bodies (usually many classes) of prewritten code to which you add your own code to solve a problem in a specific domain.
+Frameworks are large bodies (usually many classes) of pre written code to which you add your own code to solve a problem in a specific domain.
 You make use of a framework by calling its methods, inheritance, and supplying "callbacks",
 listeners, or other implementations of the Observer pattern
 
@@ -262,7 +262,7 @@ Powermock
 
 Difference between jUnit and testNG?
 TestNG uses test groups, which can categorize tests according to features such as run times.
- JUnit is designed to hone in on a unit of code, TestNG is meant for high-level testing
+JUnit is designed to hone in on a unit of code, TestNG is meant for high-level testing
 
 What are the dependencies for this project?
 Dependencies are any tasks, events or situations that are either dependent on a previous completion of a task or on which a task is dependent on.

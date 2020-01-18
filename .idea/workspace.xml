@@ -3,8 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/secret.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/XmlReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/secret.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +62,18 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="json.parser" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/codelab/status" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionView">
+  <component name="RunManager" selected="Application.UseArrayList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -84,36 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Numbers" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseQueue" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -139,6 +146,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitTestSorting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.UnitTestSorting" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -149,19 +174,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Numbers" />
+      <item itemvalue="TestNG.UnitTestSorting" />
       <item itemvalue="Application.CollectionView" />
       <item itemvalue="Application.DataReader" />
       <item itemvalue="Application.UseArrayList" />
-      <item itemvalue="Application.UseMap" />
-      <item itemvalue="Application.UseQueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionView" />
-        <item itemvalue="Application.UseQueue" />
-        <item itemvalue="Application.DataReader" />
-        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.DataReader" />
+        <item itemvalue="Application.CollectionView" />
+        <item itemvalue="TestNG.UnitTestSorting" />
+        <item itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -200,9 +225,15 @@
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.808@0.23.1440.808" timestamp="1578859691231" />
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1578849938955" />
     <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1578861877091" />
-    <state width="1400" height="199" key="GridCell.Tab.0.bottom" timestamp="1579116545255">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579306041817">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1579306041817" />
+    <state width="1400" height="331" key="GridCell.Tab.0.bottom" timestamp="1579312844239">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1400" height="331" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1579312844239" />
+    <state width="1400" height="196" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1579140232907" />
     <state width="1400" height="199" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1579105997892" />
     <state width="1400" height="199" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1579116254650" />
     <state width="1400" height="199" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1579116545255" />
@@ -211,9 +242,11 @@
     <state width="1400" height="202" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1579053362756" />
     <state width="1440" height="213" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578863675930" />
     <state width="1440" height="213" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1578862062617" />
-    <state width="1400" height="199" key="GridCell.Tab.0.center" timestamp="1579116545254">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1400" height="331" key="GridCell.Tab.0.center" timestamp="1579312844237">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1400" height="331" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1579312844237" />
+    <state width="1400" height="196" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1579140232906" />
     <state width="1400" height="199" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1579105997891" />
     <state width="1400" height="199" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1579116254648" />
     <state width="1400" height="199" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1579116545254" />
@@ -222,9 +255,11 @@
     <state width="1400" height="202" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1579053362754" />
     <state width="1440" height="213" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578863675927" />
     <state width="1440" height="213" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1578862062615" />
-    <state width="1400" height="199" key="GridCell.Tab.0.left" timestamp="1579116545253">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1400" height="331" key="GridCell.Tab.0.left" timestamp="1579312844236">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1400" height="331" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1579312844236" />
+    <state width="1400" height="196" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1579140232906" />
     <state width="1400" height="199" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1579105997890" />
     <state width="1400" height="199" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1579116254647" />
     <state width="1400" height="199" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1579116545253" />
@@ -233,9 +268,11 @@
     <state width="1400" height="202" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1579053362753" />
     <state width="1440" height="213" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578863675925" />
     <state width="1440" height="213" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1578862062615" />
-    <state width="1400" height="199" key="GridCell.Tab.0.right" timestamp="1579116545254">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1400" height="331" key="GridCell.Tab.0.right" timestamp="1579312844238">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1400" height="331" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1579312844238" />
+    <state width="1400" height="196" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1579140232907" />
     <state width="1400" height="199" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1579105997891" />
     <state width="1400" height="199" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1579116254648" />
     <state width="1400" height="199" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1579116545254" />
