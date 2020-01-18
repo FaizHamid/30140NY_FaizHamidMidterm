@@ -44,7 +44,7 @@ public class ProcessStudentInfo {
 		ConnectToMongoDB connectToMongoDB = new ConnectToMongoDB();
 		//Declare a Map with List<String> into it.
 		Map<String,List<Student>> list = new LinkedHashMap<String,List<Student>>();
-				
+
 				/*Declare 2 ArrayList with Student data type to store Selenium student into one of the ArrayList and
 				  Qtp student into another ArrayList. */
 
@@ -53,6 +53,7 @@ public class ProcessStudentInfo {
 
 		//Create XMLReader object.
 		XmlReader xmlReader = new XmlReader();
+
 
 		//Parse Data using parseData method and then store data into Selenium ArrayList.
 		seleniumStudents = xmlReader.parseData(tag, pathSelenium);
@@ -63,7 +64,10 @@ public class ProcessStudentInfo {
 
 		//add Qtp ArrayList data into map.
 
+
 		//Retrieve map data and display output.
+
+
 
 		//Store Qtp data into Qtp table in Database
 		connectToMongoDB.insertIntoMongoDB(seleniumStudents,"qtp");
@@ -76,6 +80,7 @@ public class ProcessStudentInfo {
 		for(Student st:stList){
 			System.out.println(st.getFirstName()+" "+st.getLastName()+" "+st.getScore()+" "+st.getId());
 		}
+
 		//Retrieve Selenium students from Database
 	}
 }
